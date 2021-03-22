@@ -16,13 +16,13 @@
 }
 
 .one{
-    -o-animation-timing-function: linear;
+    animation-timing-function: ease-in;
 }
 .two{
-    -o-animation-timing-function: linear;
+    animation-timing-function: ease-out;
 }
 .three{
-    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 
 @keyframes bounce{
