@@ -1,0 +1,43 @@
+.container{
+    background-color: hotpink;
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+}
+.item{
+    background-color: indigo;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border:solid black 1px;
+    display: inline-block;
+    animation:bounce 2s 10;
+    animation-iteration-count: infinite;
+}
+
+.one{
+    -o-animation-timing-function: linear;
+}
+.two{
+    -o-animation-timing-function: linear;
+}
+.three{
+    -o-animation-timing-function: linear;
+}
+
+@keyframes bounce{
+
+0%{
+
+}
+50%{
+    transform: translateY(300px);
+
+
+}
+100%{
+
+
+}
+
+}
