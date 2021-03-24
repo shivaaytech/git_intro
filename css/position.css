@@ -1,0 +1,38 @@
+.container{
+    background-color: burlywood;
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+}
+.container.one > .item.one{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.one > .five{
+    position: fixed;
+    left: 100px;
+    top: 200px;
+
+}
+.one > .six{
+    position: relative;
+    z-index: 5;
+    left: 200px;
+
+}
+.container > .two{
+    position: sticky;
+    top: 30px;
+    bottom: 30px;
+    z-index: 5;
+}
